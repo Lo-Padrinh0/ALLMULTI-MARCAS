@@ -1,0 +1,7 @@
+#btnMenu {
+    display: flex;
+    justify-content: left;
+    background-color: #f5124ba6;
+    border-radius: 10px;
+    cursor: pointer;
+}
