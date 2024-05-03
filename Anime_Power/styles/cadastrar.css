@@ -30,7 +30,7 @@ header{
 
 /* LOGIN */
 #login{
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +48,6 @@ h2{
 }
 
 h3{
-    width: 40%;
     margin: 10px;
     color: #d30fd3;
     background-color: #d30fd32f;
@@ -75,7 +74,7 @@ input{
 
 /* button enviar e resetar */
 #buttonEntrarReset button{
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     background-color: #f5124ba2;
 }

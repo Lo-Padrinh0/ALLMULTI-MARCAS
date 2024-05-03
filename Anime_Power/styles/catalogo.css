@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root{
+    --cor-vermelha: #F5124B;
+    --cor-amarela: #fdcf00;
+    --cor-cinza: #615f5f;
+    --cor-black: #000000;
+    --cor-white: #ffffff;
+}
+
+body{
+    width: 100%;
+    background-image: url(../images/Berserk\ HD\ desktop\ wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* HEADER E FOOTER */
+header , footer{
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    color: var(--cor-vermelha);
+}
+
+/* HEADER */
+header{
+    height: 100px;
+    align-items: center;
+    background-color: #000000b2;
+}
+
+header h2{
+    padding-left: 20px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+}
+
+header li{
+    list-style: none;
+}
+
+header a{
+    font-size: 13pt;
+    text-decoration: none;
+    color: var(--cor-vermelha);
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.25);
+}
+
+/* FOOTER */
+footer{
+    height: 100px;
+    background-color: #000000af;
+    margin-top: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
