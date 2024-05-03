@@ -145,7 +145,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/naruto.jpg);
+    background-image: url(../images/naruto\ previa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -175,7 +175,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/JUJUTSU\ KAISEN.jpg);
+    background-image: url(../images/JUJUTSU\ KAISEN\ previa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
