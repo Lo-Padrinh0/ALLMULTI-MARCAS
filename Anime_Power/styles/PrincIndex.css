@@ -14,10 +14,10 @@
 }
 
 body{
-    height: 100%;
-    color: var(--cor-cinza);
+    width: 100%;
     background-image: url(../images/Berserk\ HD\ desktop\ wallpaper.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
@@ -57,6 +57,11 @@ header li{
 header a{
     text-decoration: none;
     color: var(--cor-vermelha);
+}
+
+header a:hover{
+    color: #ffffff;
+   transform: scale(1.25);
 }
 
 #btnMenu{
@@ -258,15 +263,14 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/Ninja\ kamui\ mask.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/OnepunchMan.jpg);
     background-size: cover;
     background-position: bottom;
 }
 
 #onepunch a{
     text-decoration: none;
-    color: rgb(255, 25, 25);
+    color: rgb(255, 255, 255);
 }
 
 #onepunch h4{
@@ -277,8 +281,66 @@ main{
 
 #onepunchp{
     background-color: #000000d7;
+    margin-top: 190px;
+    color: rgb(255, 255, 255);
+}
+
+/* DOCTOR STONY */
+#doctor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/doctor\ stony.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#doctor a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#doctor h4{
+    margin-top: 5px;
+    background-color: #000000d7;
+    border-bottom: 2px solid ;
+}
+
+#doctorp{
+    background-color: #000000d7;
     margin-top: 210px;
-    color: rgb(255, 25, 25);
+    color: rgb(255, 255, 255);
+}
+
+/* SOLO LEVELING */
+#solo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/Wallpaper\ solo\ leveling.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#solo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#solo h4{
+    margin-top: 5px;
+    background-color: #000000d7;
+    border-bottom: 2px solid ;
+}
+
+#solop{
+    background-color: #000000d7;
+    margin-top: 210px;
+    color: rgb(255, 255, 255);
 }
 
 /* MAPS */
